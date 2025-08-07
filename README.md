@@ -1,10 +1,10 @@
-Projet : Analyse des Ventes et Insights Commerciaux
-📝 Description du Projet
+# Projet : Analyse des Ventes et Insights Commerciaux
+## 📝 Description du Projet
 Ce projet a pour objectif de fournir une analyse approfondie des données de ventes afin d'identifier des tendances clés, des performances produits, et des opportunités d'optimisation commerciale. En transformant les données brutes en insights exploitables, ce projet aide les entreprises à prendre des décisions stratégiques pour améliorer leurs revenus, leur rentabilité et l'efficacité de leurs opérations.
 
 Le projet inclut des scripts d'analyse de données en Python et des recommandations pour la création de dashboards interactifs, principalement avec Power BI Desktop.
 
-🎯 Problème Métier Addréssé
+## 🎯 Problème Métier Addréssé
 Dans un environnement commercial dynamique, comprendre les performances des ventes est essentiel. Ce projet répond à des questions fondamentales pour les équipes de vente, de marketing et de direction, telles que :
 
 Quels sont nos produits les plus performants et les moins performants ?
@@ -17,7 +17,7 @@ Comment optimiser nos stratégies de remise ?
 
 Quels sont les moteurs de vente par région ?
 
-✨ Fonctionnalités et Analyses Clés
+## ✨ Fonctionnalités et Analyses Clés
 Ce projet permet de réaliser les analyses suivantes pour obtenir des insights commerciaux précis :
 
 Top/Bottom 5 des Produits :
@@ -60,7 +60,7 @@ Ventes par Ville :
 
 Analyse de la performance des ventes par différentes villes ou régions géographiques.
 
-💻 Technologies et Dépendances
+## 💻 Technologies et Dépendances
 Analyse et Traitement des Données :
 
 Python 3.x
@@ -91,10 +91,11 @@ sales_analysis_project/
 │   └── (sales_dashboard.twbx)      # (Optionnel) Exemple de fichier Tableau Workbook
 └── README.md                       # Ce fichier de documentation
 
-🚀 Étapes de Réalisation du Projet
+## 🚀 Étapes de Réalisation du Projet
 Suivez ces étapes pour mettre en place et explorer le projet.
 
-1. Acquisition et Préparation des Données
+1. **Acquisition et Préparation des Données**
+   
 Source de Données : Ce projet suppose l'utilisation d'un jeu de données de ventes. Un exemple typique pourrait inclure des colonnes comme OrderID, OrderDate, ProductID, ProductName, Quantity, UnitPrice, Sales, Profit, Discount, CustomerCity, CustomerID, PromotionCategory.
 
 Vous pouvez utiliser un jeu de données public (ex: Superstore Sales sur Kaggle) ou générer des données synthétiques si nécessaire.
@@ -107,18 +108,9 @@ Exemple de commande : python scripts/data_preprocessing.py
 
 Output attendu : Un fichier de données nettoyées et prêtes à l'emploi (ex: processed_sales_data.csv) sera sauvegardé dans le dossier data/.
 
-2. Analyse des Données (Python)
-Script d'Analyse :
 
-Le script scripts/sales_analysis.py effectuera les calculs et agrégations nécessaires pour répondre aux questions d'analyse listées dans la section "Fonctionnalités".
-
-Il générera des fichiers CSV ou JSON pour les résumés agrégés qui seront ensuite utilisés par les outils BI, ou des visualisations statiques si vous le souhaitez.
-
-Exemple de commande : python scripts/sales_analysis.py
-
-Output attendu : Des fichiers de résumé (ex: top_bottom_products.csv, sales_trends_monthly.csv, discount_summary.csv) seront créés dans le dossier data/ ou un sous-dossier analysis_results/.
-
-3. Création de Dashboards Interactifs (Power BI)
+2. **Création de Dashboards Interactifs (Power BI)**
+   
 Cette étape cruciale transforme les analyses brutes en visualisations interactives pour les utilisateurs finaux, en se concentrant sur Power BI.
 
 Importation des Données :
@@ -153,14 +145,19 @@ Configurez des actions pour que la sélection d'un élément dans un graphique m
 
 Output attendu : Un fichier de dashboard interactif (ex: .pbix pour Power BI) sera sauvegardé dans le dossier dashboards/.
 
-☁️ Déploiement / Partage
-Pour partager vos dashboards interactifs :
+## Quelques captures d'images
 
-Power BI Service : Publiez votre .pbix sur le Power BI Service pour le partager au sein de votre organisation ou publiquement.
+<img width="1284" height="688" alt="Capture d'écran 2025-08-07 120546" src="https://github.com/user-attachments/assets/186fa852-00e9-4be0-885e-e016fc6a4894" />
 
-(Alternative : Tableau Public si vous utilisez Tableau)
 
-✍️ Auteur
+<img width="1284" height="719" alt="Capture d'écran 2025-08-07 120705" src="https://github.com/user-attachments/assets/3dff5054-590e-46da-bf86-38e9b6e96e7c" />
+
+
+<img width="1244" height="720" alt="Capture d'écran 2025-08-07 120629" src="https://github.com/user-attachments/assets/17ce3752-833a-44a8-a785-2c4d31a4b3bb" />
+
+
+
+## ✍️ Auteur
 Aboubacar Halidou Hamza
 
 
